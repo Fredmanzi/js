@@ -26,7 +26,7 @@
 
 }
 
-.head_five {
+#head_five {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     color: rgb(54, 52, 52);
@@ -64,4 +64,13 @@ ul li {
     font-size: 1rem;
     color: rgb(54, 52, 52);
 
+}
+
+.closebtn {
+    background-color: red;
+    color: white;
+    position: relative;
+    float: right;
+    width: 24px;
+    cursor: pointer;
 }

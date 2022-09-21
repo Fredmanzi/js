@@ -14,18 +14,20 @@
     <div class="main_container">
         <div class="container">
             <h5 class="head_five">Add Item</h5>
-            <input type="text">
-            <button id="btn">Submit</button>
-            <h5 class="head_five">Items</h5>
-            <ul>
-                <li class="list_item">Item 1</li>
-                <li class="list_item">Item 2</li>
-                <li class="list_item">Item 3</li>
-                <li class="list_item">Item 4</li>
+            <form id="addform">
+                <input type="text" id="item">
+                <input type="submit" id="btn" value="submit">
+            </form>
+            <h5 id="head_five">Items</h5>
+            <ul id="items">
+                <li class="list_item">Item 1<button class="closebtn">x</button></li>
+                <li class="list_item">Item 2<button class="closebtn">x</button></li>
+                <li class="list_item">Item 3<button class="closebtn">x</button></li>
+                <li class="list_item">Item 4<button class="closebtn">x</button></li>
             </ul>
         </div>
     </div>
-    <script src="./dom.js"></script>
+    <script src="./project.js"></script>
 </body>
 
 </html>
